@@ -1,0 +1,4 @@
+interface:
+  display_name: "Strategist"
+  short_description: "Plan audience, content strategy and measured learning"
+  default_prompt: "Use $strategist to make an evidence-aware audience and content strategy, preserving creative intent and distinguishing research, hypotheses and measured results."

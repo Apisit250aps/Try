@@ -1,0 +1,235 @@
+{
+    "OTIO_SCHEMA": "Timeline.1",
+    "metadata": {},
+    "name": "Editor paper edit",
+    "global_start_time": null,
+    "tracks": {
+        "OTIO_SCHEMA": "Stack.1",
+        "metadata": {},
+        "name": "tracks",
+        "source_range": null,
+        "effects": [],
+        "markers": [],
+        "enabled": true,
+        "color": null,
+        "children": [
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "enabled": true,
+                "color": null,
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A001\", \"asset_version\": \"planned-1\", \"dependencies\": [], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E001\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB01\"], \"purpose\": \"Enter and notice fallen bird\", \"record\": {\"in\": 0, \"out\": 120}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB01\"], \"shot_id\": \"S010-SH010\", \"source\": {\"in\": 0, \"out\": 120}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E001",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 120.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A002\", \"asset_version\": \"planned-1\", \"dependencies\": [\"ED-E001\"], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E002\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB01\"], \"purpose\": \"Lift bird onto table\", \"record\": {\"in\": 120, \"out\": 216}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB02\"], \"shot_id\": \"S010-SH020\", \"source\": {\"in\": 0, \"out\": 96}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E002",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 96.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A003\", \"asset_version\": \"planned-1\", \"dependencies\": [\"ED-E002\"], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E003\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB02\"], \"purpose\": \"Notice key and reach\", \"record\": {\"in\": 216, \"out\": 336}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB03\"], \"shot_id\": \"S010-SH030\", \"source\": {\"in\": 0, \"out\": 120}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E003",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 120.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A004\", \"asset_version\": \"planned-1\", \"dependencies\": [\"ED-E003\"], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E004\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB02\"], \"purpose\": \"Wind key once\", \"record\": {\"in\": 336, \"out\": 480}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB04\"], \"shot_id\": \"S010-SH040\", \"source\": {\"in\": 0, \"out\": 144}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E004",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 144.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A005\", \"asset_version\": \"planned-1\", \"dependencies\": [\"ED-E004\"], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E005\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB02\"], \"purpose\": \"Release and wait\", \"record\": {\"in\": 480, \"out\": 576}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB05\"], \"shot_id\": \"S010-SH050\", \"source\": {\"in\": 0, \"out\": 96}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E005",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 96.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "metadata": {
+                            "editor_event_json": "{\"asset_id\": \"ED-A006\", \"asset_version\": \"planned-1\", \"dependencies\": [\"ED-E005\"], \"handles\": {\"post\": null, \"pre\": null}, \"id\": \"ED-E006\", \"kind\": \"clip\", \"lock_state\": \"unlocked\", \"mapping\": \"linear\", \"narrative_beat_ids\": [\"NB03\"], \"purpose\": \"Show movement and response\", \"record\": {\"in\": 576, \"out\": 720}, \"scene_id\": \"S010\", \"script_beat_ids\": [\"SB06\"], \"shot_id\": \"S010-SH060\", \"source\": {\"in\": 0, \"out\": 144}, \"speed\": {\"den\": 1, \"num\": 1}, \"sync_group\": null, \"timing_basis\": \"estimated\", \"track_id\": \"V1\", \"transition\": {\"type\": \"cut\"}, \"version\": \"1\"}"
+                        },
+                        "name": "ED-E006",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 144.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "color": null,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "MissingReference.1",
+                                "metadata": {},
+                                "name": "",
+                                "available_range": null,
+                                "available_image_bounds": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ],
+                "kind": "Video"
+            }
+        ]
+    }
+}

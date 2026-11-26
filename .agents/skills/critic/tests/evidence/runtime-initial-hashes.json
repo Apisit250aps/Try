@@ -1,0 +1,14 @@
+{
+  "SKILL.md": "43ff00328203c970681d049897bfc42c61f22a06b66b962ba75833d964cce4e2",
+  "references/narrative-screenplay.md": "3ef82de98e097f7b2e17971a82bdb7ecc919cb7c70f3d843b2d35e8a032c7fd8",
+  "references/review-modes.md": "b09a794b0276383f8dce7be1dab824a213609b15c5693ebd52b6136dc8d70338",
+  "references/judgment-limits.md": "75f1b6ff3f691645e66da2ee4b514a48fb53f2eda347328db7802df3bdb25d86",
+  "references/production-contract.md": "fb1a8cffdd90056eaa64ad9b9c52e67db8a84e3f3f048d1f700b9e4ff0fbd2f0",
+  "references/rubric.md": "c66a679ef000456e7673c44b9e20fb4ae6d7783f419412228afe73748684a48f",
+  "references/audiovisual-craft.md": "0630a600ff62f2193148123b41085571d54d81a5131dfc5e41a313aec8722270",
+  "references/evidence-map.md": "472076e06b4ba3fb394ae77601635a3ce8f8d8a5eae53e7607d8a27a0b65c4d6",
+  "workflows/review-and-verify.md": "1c18a8abafa4ea2032d54faa3b59f6707fe79f143a0a53dff2155d117660faf8",
+  "agents/openai.yaml": "c12702c38f98cc30bb23c9c65afd2e5e0ffacc8e2d9c0beef52fed95b22b003a",
+  "examples/critique-cases.md": "c7229fd67f9c0c7af1bccc83a299b38c91aa43299d85325153da870d9c2fa0eb",
+  "templates/review-report.md": "ad90dcc5896a28dd7a76f0b135052d9fc32bda832eafc4e8d7626899525422fb"
+}

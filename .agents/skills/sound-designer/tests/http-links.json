@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-25",
+  "timezone": "Asia/Bangkok",
+  "scope": "HTTP reachability only; HEAD or GET headers, not source-body reading, caption/audio evaluation or link-target semantic validation",
+  "initial_python_attempt": {
+    "summary": "All 22 URLs failed local Python CA verification; no TLS bypass used",
+    "results": [
+      {
+        "url": "https://aes.org/community/technical-council/technical-document-aestd1008/",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://aes.org/wp-content/uploads/2026/10/20210924_TD1008_v3.13.pdf",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://elevenlabs.io/docs/overview/capabilities/sound-effects",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://ffmpeg.org/ffmpeg-filters.html",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://filmanalysis.yale.edu/sound/",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://filmsound.org/articles/designing_for_sound.htm",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://helpx.adobe.com/audition/desktop/effects-reference/noise-reduction-restoration-effects.html",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/custom-neural-voice",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://online.berklee.edu/courses/professional-film-scoring-skills-1-collaboration-and-communication",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://tech.ebu.ch/files/live/sites/tech/files/shared/r/r128.pdf",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.adobe.com/learn/audition/web/audition-phase-analysis-cc",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.berklee.edu/careers/roles/composer-film",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.berklee.edu/careers/roles/sound-designer",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.copyright.gov/music-modernization/educational-materials/musicians-income.pdf",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I!!PDF-E.pdf",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.itu.int/rec/R-REC-BS.1770/en",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.w3.org/WAI/media/av/",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      },
+      {
+        "url": "https://www.w3.org/WAI/media/av/captions/",
+        "method": "HEAD",
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      }
+    ]
+  },
+  "system_curl_results": [
+    {
+      "url": "https://aes.org/community/technical-council/technical-document-aestd1008/",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "403 https://aes.org/community/technical-council/technical-document-aestd1008/"
+    },
+    {
+      "url": "https://aes.org/wp-content/uploads/2026/10/20210924_TD1008_v3.13.pdf",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://aes.org/wp-content/uploads/2026/10/20210924_TD1008_v3.13.pdf"
+    },
+    {
+      "url": "https://elevenlabs.io/docs/overview/capabilities/sound-effects",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://elevenlabs.io/docs/overview/capabilities/sound-effects"
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://ffmpeg.org/ffmpeg-filters.html"
+    },
+    {
+      "url": "https://filmanalysis.yale.edu/sound/",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://filmanalysis.yale.edu/sound/"
+    },
+    {
+      "url": "https://filmsound.org/articles/designing_for_sound.htm",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://filmsound.org/articles/designing_for_sound.htm"
+    },
+    {
+      "url": "https://helpx.adobe.com/audition/desktop/effects-reference/noise-reduction-restoration-effects.html",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://helpx.adobe.com/audition/desktop/effects-reference/noise-reduction-restoration-effects.html"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/custom-neural-voice",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://learn.microsoft.com/en-us/azure/ai-services/speech-service/custom-neural-voice"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-synthesis-markup-pronunciation"
+    },
+    {
+      "url": "https://online.berklee.edu/courses/professional-film-scoring-skills-1-collaboration-and-communication",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://online.berklee.edu/courses/professional-film-scoring-skills-1-collaboration-and-communication"
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "404 https://support.google.com/youtube/answer/1722171?hl=en"
+    },
+    {
+      "url": "https://tech.ebu.ch/files/live/sites/tech/files/shared/r/r128.pdf",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://tech.ebu.ch/files/live/sites/tech/files/shared/r/r128.pdf"
+    },
+    {
+      "url": "https://www.adobe.com/learn/audition/web/audition-phase-analysis-cc",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.adobe.com/learn/audition/web/audition-phase-analysis-cc"
+    },
+    {
+      "url": "https://www.berklee.edu/careers/roles/composer-film",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.berklee.edu/careers/roles/composer-film"
+    },
+    {
+      "url": "https://www.berklee.edu/careers/roles/sound-designer",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "404 https://www.berklee.edu/careers/roles/sound-designer"
+    },
+    {
+      "url": "https://www.copyright.gov/music-modernization/educational-materials/musicians-income.pdf",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.copyright.gov/music-modernization/educational-materials/musicians-income.pdf"
+    },
+    {
+      "url": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I!!PDF-E.pdf",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I!!PDF-E.pdf"
+    },
+    {
+      "url": "https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.itu.int/rec/R-REC-BS.1770-5-202311-I/en"
+    },
+    {
+      "url": "https://www.itu.int/rec/R-REC-BS.1770/en",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.itu.int/rec/R-REC-BS.1770/en"
+    },
+    {
+      "url": "https://www.w3.org/WAI/media/av/",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.w3.org/WAI/media/av/"
+    },
+    {
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "client": "system curl, TLS verification enabled",
+      "method": "HEAD with redirects",
+      "exit_code": 0,
+      "response": "200 https://www.w3.org/WAI/media/av/captions/"
+    }
+  ]
+}

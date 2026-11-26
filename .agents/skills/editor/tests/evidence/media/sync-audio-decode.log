@@ -1,0 +1,24 @@
+[aist#0:1/pcm_s16le @ 0x136717e80] Guessed Channel Layout: mono
+Input #0, matroska,webm, from '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/sync-pulse.mkv':
+  Metadata:
+    ENCODER         : Lavf63.1.100
+  Duration: 00:00:06.00, start: 0.000000, bitrate: 812 kb/s
+  Stream #0:0: Video: ffv1, yuv420p(tv, progressive), 160x90, SAR 1:1 DAR 16:9, 24 fps, 24 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc63.1.100 ffv1
+      DURATION        : 00:00:06.000000000
+  Stream #0:1: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      ENCODER         : Lavc63.1.100 pcm_s16le
+      DURATION        : 00:00:06.000000000
+Stream mapping:
+  Stream #0:1 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Output #0, s16le, to 'pipe:1':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+      DURATION        : 00:00:06.000000000
+[out#0/s16le @ 0x136717ff0] video:0KiB audio:562KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+size=     562KiB time=00:00:06.00 bitrate= 768.0kbits/s speed=5.58e+03x elapsed=0:00:00.00    

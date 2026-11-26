@@ -1,0 +1,215 @@
+{
+  "access_date": "2026-11-26",
+  "timezone": "Asia/Bangkok",
+  "scope": "HTTP reachability only; consulted body sections are in source registry",
+  "results": [
+    {
+      "url": "https://filmanalysis.yale.edu/editing/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://filmanalysis.yale.edu/editing/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.moviemaker.com/walter-murch-cutting-from-the-heart-3217/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.moviemaker.com/walter-murch-cutting-from-the-heart-3217/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://routledgetextbooks.com/textbooks/9781138856516/resources.php",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://routledgetextbooks.com/textbooks/9781138856516/resources.php",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.karenpearlman.net/karenpearlmannet/why-do-movies-want-directors-to-kill-your-babies.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.karenpearlman.net/karenpearlmannet/why-do-movies-want-directors-to-kill-your-babies.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.karenpearlman.net/karenpearlmannet/cutting-web-series-whats-important.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.karenpearlman.net/karenpearlmannet/cutting-web-series-whats-important.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://americancinemaeditors.org/ed-center/visiting-editors/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://americancinemaeditors.org/ed-center/visiting-editors/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://cinemontage.org/animated-discussion-editing/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://cinemontage.org/animated-discussion-editing/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.screenskills.com/job-profiles/browse/animation/post-production/editor-animation/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "403",
+      "effective_url": "https://www.screenskills.com/job-profiles/browse/animation/post-production/editor-animation/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.bfi.org.uk/sight-and-sound/news/from-creation-self-destruction-walter-murch-sheffield-docfest-2013",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.bfi.org.uk/sight-and-sound/news/from-creation-self-destruction-walter-murch-sheffield-docfest-2013",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://bop.unibe.ch/JEMR/article/view/2264",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://bop.unibe.ch/JEMR/article/view/2264",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://pub.smpte.org/latest/st12-1/st0012-1-2014.pdf",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://pub.smpte.org/latest/st12-1/st0012-1-2014.pdf",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/organize-media/apply-labeling/choose-timecode-display-format.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://helpx.adobe.com/premiere/desktop/organize-media/apply-labeling/choose-timecode-display-format.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/organize-media/ingest-proxy-workflow/create-proxies.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://helpx.adobe.com/premiere/desktop/organize-media/ingest-proxy-workflow/create-proxies.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://resources.avid.com/SupportFiles/attach/Media_Composer_Editing_Guide_2022.x.pdf",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://resources.avid.com/SupportFiles/attach/Media_Composer_Editing_Guide_2022.x.pdf",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/otio-timeline-structure.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/otio-timeline-structure.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/adapters.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/adapters.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/time-ranges.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://opentimelineio.readthedocs.io/en/latest/tutorials/time-ranges.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://ffmpeg.org/ffmpeg.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/correct-color/set-up-color-management/how-color-management-works.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://helpx.adobe.com/premiere/desktop/correct-color/set-up-color-management/how-color-management-works.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/overview-of-export-settings.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://helpx.adobe.com/premiere/desktop/render-and-export/export-files/overview-of-export-settings.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.w3.org/WAI/media/av/captions/",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.karenpearlman.net/karenpearlmannet/manifesto-on-teaching-creative-practice-through-screen-studies.html",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.karenpearlman.net/karenpearlmannet/manifesto-on-teaching-creative-practice-through-screen-studies.html",
+      "curl_exit": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.thebeliever.net/an-interview-with-walter-murch/",
+      "method": "HEAD with redirects, TLS verification enabled",
+      "http_status": "200",
+      "effective_url": "https://www.thebeliever.net/an-interview-with-walter-murch/",
+      "curl_exit": 0,
+      "error": null
+    }
+  ]
+}

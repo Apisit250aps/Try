@@ -1,0 +1,638 @@
+{
+  "contract": "editor-timeline/0.1",
+  "id": "ED-WINDUP",
+  "version": "1",
+  "project_id": "EXERCISE-WINDUP",
+  "episode_id": null,
+  "upstream": [
+    {
+      "role": "Cinematographer",
+      "contract": "cinematographer-shot-package/0.1",
+      "locator": "authoring input: skills/cinematographer/examples/silent-30s.json",
+      "version": "1",
+      "sha256": "bf956f2a0bb3ad2d0a8de2ec18542b20e7d10fed483d90db7a65a370bb8b54a8",
+      "status": "draft"
+    }
+  ],
+  "assumptions": [
+    "Paper edit: no actual picture or audio supplied; all source ranges and durations estimated.",
+    "24 fps is the supplied shot-plan playback rate, not measured footage.",
+    "Primary proposed sequence only; alternate coverage adds no runtime."
+  ],
+  "locked_facts": [
+    "N has own-left cheek crescent and own-right scarf knot",
+    "bird has chipped left wing",
+    "only stated actions; no speech/text/sound carries essential information",
+    "lamp remains on"
+  ],
+  "sequence": {
+    "id": "SQ-WINDUP",
+    "version": "1",
+    "rate": {
+      "num": 24,
+      "den": 1
+    },
+    "timebase": {
+      "num": 1,
+      "den": 24
+    },
+    "start_timecode": null,
+    "timecode_mode": "NDF",
+    "record_origin": 0,
+    "duration_frames": 720,
+    "lock_state": "unlocked",
+    "approval": null
+  },
+  "beats": {
+    "narrative": [
+      "NB01",
+      "NB02",
+      "NB03"
+    ],
+    "script": [
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB05",
+      "SB06"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "S010",
+      "narrative_beat_ids": [
+        "NB01",
+        "NB02",
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB01",
+        "SB02",
+        "SB03",
+        "SB04",
+        "SB05",
+        "SB06"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "id": "S010-SH010",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB01"
+      ],
+      "purpose": "Enter and notice fallen bird"
+    },
+    {
+      "id": "S010-SH020",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB02"
+      ],
+      "purpose": "Lift bird onto table"
+    },
+    {
+      "id": "S010-SH030",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB03"
+      ],
+      "purpose": "Notice key and reach"
+    },
+    {
+      "id": "S010-SH040",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB04"
+      ],
+      "purpose": "Wind key once"
+    },
+    {
+      "id": "S010-SH050",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB05"
+      ],
+      "purpose": "Release and wait"
+    },
+    {
+      "id": "S010-SH060",
+      "version": "1",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB06"
+      ],
+      "purpose": "Show movement and response"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ED-A001",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH010",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 120,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH010-P01",
+        "end_frame_id": "S010-SH010-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    },
+    {
+      "id": "ED-A002",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH020",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 96,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH020-P01",
+        "end_frame_id": "S010-SH020-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    },
+    {
+      "id": "ED-A003",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH030",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 120,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH030-P01",
+        "end_frame_id": "S010-SH030-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    },
+    {
+      "id": "ED-A004",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH040",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 144,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH040-P01",
+        "end_frame_id": "S010-SH040-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    },
+    {
+      "id": "ED-A005",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH050",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 96,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH050-P01",
+        "end_frame_id": "S010-SH050-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    },
+    {
+      "id": "ED-A006",
+      "version": "planned-1",
+      "kind": "video",
+      "shot_id": "S010-SH060",
+      "locator": null,
+      "sha256": null,
+      "rate": {
+        "num": 24,
+        "den": 1
+      },
+      "timing_mode": "CFR",
+      "source_timecode": null,
+      "available": {
+        "in": 0,
+        "out": 144,
+        "basis": "estimated",
+        "evidence": null
+      },
+      "media_state": "absent",
+      "generation": {
+        "provider": null,
+        "start_frame_id": "S010-SH060-P01",
+        "end_frame_id": "S010-SH060-P02",
+        "capability_status": "unverified"
+      },
+      "inspection": null
+    }
+  ],
+  "tracks": [
+    {
+      "id": "V1",
+      "kind": "video",
+      "role": "primary picture",
+      "order": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "ED-E001",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH010",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB01"
+      ],
+      "asset_id": "ED-A001",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 120
+      },
+      "record": {
+        "in": 0,
+        "out": 120
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Enter and notice fallen bird",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": []
+    },
+    {
+      "id": "ED-E002",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH020",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB02"
+      ],
+      "asset_id": "ED-A002",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 96
+      },
+      "record": {
+        "in": 120,
+        "out": 216
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Lift bird onto table",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": [
+        "ED-E001"
+      ]
+    },
+    {
+      "id": "ED-E003",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH030",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB03"
+      ],
+      "asset_id": "ED-A003",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 120
+      },
+      "record": {
+        "in": 216,
+        "out": 336
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Notice key and reach",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": [
+        "ED-E002"
+      ]
+    },
+    {
+      "id": "ED-E004",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH040",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB04"
+      ],
+      "asset_id": "ED-A004",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 144
+      },
+      "record": {
+        "in": 336,
+        "out": 480
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Wind key once",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": [
+        "ED-E003"
+      ]
+    },
+    {
+      "id": "ED-E005",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH050",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB05"
+      ],
+      "asset_id": "ED-A005",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 96
+      },
+      "record": {
+        "in": 480,
+        "out": 576
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Release and wait",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": [
+        "ED-E004"
+      ]
+    },
+    {
+      "id": "ED-E006",
+      "version": "1",
+      "kind": "clip",
+      "track_id": "V1",
+      "shot_id": "S010-SH060",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB06"
+      ],
+      "asset_id": "ED-A006",
+      "asset_version": "planned-1",
+      "source": {
+        "in": 0,
+        "out": 144
+      },
+      "record": {
+        "in": 576,
+        "out": 720
+      },
+      "speed": {
+        "num": 1,
+        "den": 1
+      },
+      "mapping": "linear",
+      "transition": {
+        "type": "cut"
+      },
+      "handles": {
+        "pre": null,
+        "post": null
+      },
+      "sync_group": null,
+      "purpose": "Show movement and response",
+      "timing_basis": "estimated",
+      "lock_state": "unlocked",
+      "dependencies": [
+        "ED-E005"
+      ]
+    }
+  ],
+  "order_constraints": [
+    {
+      "namespace": "script",
+      "before": "SB01",
+      "after": "SB02"
+    },
+    {
+      "namespace": "script",
+      "before": "SB02",
+      "after": "SB03"
+    },
+    {
+      "namespace": "script",
+      "before": "SB03",
+      "after": "SB04"
+    },
+    {
+      "namespace": "script",
+      "before": "SB04",
+      "after": "SB05"
+    },
+    {
+      "namespace": "script",
+      "before": "SB05",
+      "after": "SB06"
+    }
+  ],
+  "sync_anchors": [],
+  "output": {
+    "state": "planned",
+    "profile": "paper edit; not a rendered animatic",
+    "locator": null,
+    "sha256": null,
+    "render_log": null,
+    "checks": [],
+    "approval": null
+  },
+  "handoff": [
+    {
+      "receiver": "Director",
+      "status": "pending",
+      "request": "Review information order and estimated holds; no approval claimed."
+    },
+    {
+      "receiver": "Sound Designer",
+      "status": "pending",
+      "request": "Optional cues must not carry indispensable information in this silent test."
+    }
+  ]
+}

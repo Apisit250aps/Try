@@ -1,0 +1,4 @@
+interface:
+  display_name: "Artist"
+  short_description: "Create visual assets and consistent characters"
+  default_prompt: "Use $artist to turn my creative brief into visual assets while preserving the project's style and character identity."

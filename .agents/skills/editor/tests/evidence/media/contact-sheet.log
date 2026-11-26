@@ -1,0 +1,27 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/silent-30s-schematic.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.100
+  Duration: 00:00:30.00, start: 0.000000, bitrate: 9 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 320x180, 6 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Output #0, image2, to '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/contact-sheet.png':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.100
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/unknown/unknown, progressive), 1280x540, q=2-31, 200 kb/s, 0.03 fps, 0.03 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.100 png
+      handler_name    : VideoHandler
+[image2 @ 0x13080cb80] The specified filename '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/contact-sheet.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x13080cb80] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x13080c480] video:20KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:30.00 bitrate=N/A speed=1.21e+03x elapsed=0:00:00.02    

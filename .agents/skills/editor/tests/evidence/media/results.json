@@ -1,0 +1,436 @@
+{
+  "python_version": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "ffmpeg": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+  "otio_version": "0.18.1",
+  "fixture_sha256": "32cdcc00e6009e1a857f2aa457226e526f337e06d9fdcabe4ae4bc130eca437f",
+  "commands": [
+    {
+      "name": "schematic-render",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "320x180",
+        "-framerate",
+        "24",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        "-crf",
+        "20",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/silent-30s-schematic.mp4"
+      ]
+    },
+    {
+      "name": "schematic-full-decode",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/silent-30s-schematic.mp4",
+        "-map",
+        "0:v:0",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "contact-sheet",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/silent-30s-schematic.mp4",
+        "-vf",
+        "fps=2/5,tile=4x3",
+        "-frames:v",
+        "1",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/contact-sheet.png"
+      ]
+    },
+    {
+      "name": "source-25",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=red:s=160x90:r=25:d=6",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/source-25.mp4"
+      ]
+    },
+    {
+      "name": "source-24",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=blue:s=160x90:r=24:d=6",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/source-24.mp4"
+      ]
+    },
+    {
+      "name": "mixed-rate-conform",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/source-25.mp4",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/source-24.mp4",
+        "-filter_complex",
+        "[0:v]trim=start_frame=25:end_frame=125,setpts=PTS-STARTPTS,fps=24[a];[1:v]trim=start_frame=24:end_frame=120,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0[v]",
+        "-map",
+        "[v]",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-pix_fmt",
+        "yuv420p",
+        "-r",
+        "24",
+        "-fps_mode",
+        "cfr",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/mixed-rate-8s.mp4"
+      ]
+    },
+    {
+      "name": "mixed-full-decode",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/mixed-rate-8s.mp4",
+        "-map",
+        "0:v:0",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "sync-render",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=black:s=160x90:r=24:d=6",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/pulse.wav",
+        "-vf",
+        "drawbox=x=0:y=0:w=iw:h=ih:color=white:t=fill:enable='eq(n,96)'",
+        "-map",
+        "0:v:0",
+        "-map",
+        "1:a:0",
+        "-c:v",
+        "ffv1",
+        "-c:a",
+        "pcm_s16le",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/sync-pulse.mkv"
+      ]
+    },
+    {
+      "name": "sync-picture-decode",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/sync-pulse.mkv",
+        "-map",
+        "0:v:0",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "sync-audio-decode",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/sync-pulse.mkv",
+        "-map",
+        "0:a:0",
+        "-f",
+        "s16le",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "jl-render",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-f",
+        "lavfi",
+        "-i",
+        "color=c=black:s=160x90:r=24:d=6",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/B-J.wav",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/A-L.wav",
+        "-vf",
+        "drawbox=x=0:y=0:w=iw:h=ih:color=white:t=fill:enable='gte(n,96)'",
+        "-map",
+        "0:v:0",
+        "-map",
+        "1:a:0",
+        "-map",
+        "2:a:0",
+        "-c:v",
+        "ffv1",
+        "-c:a",
+        "pcm_s16le",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/jl-overlap.mkv"
+      ]
+    },
+    {
+      "name": "jl-audio-0",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/jl-overlap.mkv",
+        "-map",
+        "0:a:0",
+        "-f",
+        "s16le",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "jl-audio-1",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/jl-overlap.mkv",
+        "-map",
+        "0:a:1",
+        "-f",
+        "s16le",
+        "pipe:1"
+      ]
+    },
+    {
+      "name": "jl-picture-decode",
+      "argv": [
+        "/private/tmp/the-stories-editor-validation/lib/python3.14/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0",
+        "-hide_banner",
+        "-nostdin",
+        "-n",
+        "-i",
+        "/private/tmp/the-stories-editor-smoke-ffmpeg9-final/jl-overlap.mkv",
+        "-map",
+        "0:v:0",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "pipe:1"
+      ]
+    }
+  ],
+  "files": {
+    "contact-sheet.log": {
+      "bytes": 1658,
+      "sha256": "a070b2893a6b535f3db0ec8373a374e34d9c3d732b787ff7560b3878a9c1153a"
+    },
+    "source-25.mp4": {
+      "bytes": 5687,
+      "sha256": "03d4306616a907a0326d4e3012a4bd71daf0598afe11e93475072bf865b3f008"
+    },
+    "source-24.mp4": {
+      "bytes": 5512,
+      "sha256": "323bfa1d1041fcc3407370ba5dec5b118fdae23f2e01a663f4915c0e4cd25e26"
+    },
+    "silent-paper-edit.otio": {
+      "bytes": 13636,
+      "sha256": "d244ad1db05efa8ff81caea012f54dec5b95b1dc696c4e0c42e16b91cdd80b62"
+    },
+    "source-25.log": {
+      "bytes": 2667,
+      "sha256": "088c39db8238d976371f25021402349bd31d9a6c9448b72971f61658105c79b4"
+    },
+    "jl-audio-1.log": {
+      "bytes": 1435,
+      "sha256": "a3771fe1df3be6cb0c0db4652b24187f8562afea13cf7cb19a58426ae55646af"
+    },
+    "jl-audio-0.log": {
+      "bytes": 1445,
+      "sha256": "eb83b8182b137ea4ffbaaa122a9b5bd244324d66bd0cb3bc5febc5836aa0c2a1"
+    },
+    "source-24.log": {
+      "bytes": 2672,
+      "sha256": "4baabeeab80c68a6be623b952125c92918707815ac41dc4528b862a7b9add461"
+    },
+    "schematic-render.log": {
+      "bytes": 2979,
+      "sha256": "9b450513b8c33042afa819682f2f10ab194a38053c4437a316432460528bce3a"
+    },
+    "schematic-full-decode.log": {
+      "bytes": 1317,
+      "sha256": "5848653191189647ce5f022859e30c20de47ba4af04fcfbb41c9f6fc454ae3da"
+    },
+    "jl-overlap.mkv": {
+      "bytes": 1186085,
+      "sha256": "28703a8950c8e08c2dedc66d356db14a11773cddbe7c4447095145eaabc2c2a0"
+    },
+    "silent-30s-schematic.mp4": {
+      "bytes": 35279,
+      "sha256": "49116354bd3d82b0f0ba817d4f5dd2b1dece949f1212ea585ae490aff49945e9"
+    },
+    "sync-render.log": {
+      "bytes": 1362,
+      "sha256": "ee27f535f6efe517f57d6c12606cf0cdf017b890208ac214013e36240e1279b3"
+    },
+    "B-J.wav": {
+      "bytes": 576044,
+      "sha256": "53121e907f1b20cb0ccd03d26d997093bbaf5883ad71ace1d7b42ab1899304e2"
+    },
+    "jl-picture-decode.log": {
+      "bytes": 1557,
+      "sha256": "7cbb726fcc96ca38d853c13c5bdec8b9f32a98b88361c3da2791f207ded89295"
+    },
+    "sync-audio-decode.log": {
+      "bytes": 1193,
+      "sha256": "bcccac852999e06eed9e45e713352f9e01a873680a314bbefe9e28adfbb42e07"
+    },
+    "mixed-full-decode.log": {
+      "bytes": 1342,
+      "sha256": "3a2c46f748101bf518a5ca42867f2e935c444de28b3c51bb8cdc9cc82d1138ba"
+    },
+    "mixed-rate-conform.log": {
+      "bytes": 3734,
+      "sha256": "c03fe9111acaa1ff3dbd650ecbd79baab27ddd9b45c110850f44ba09dc8ce8ba"
+    },
+    "contact-sheet.png": {
+      "bytes": 20004,
+      "sha256": "8e0c1bd93a86fa9ea282f5ab1999d3d3810f399bbe43a2be1e318fc62898bf2f"
+    },
+    "sync-pulse.mkv": {
+      "bytes": 609410,
+      "sha256": "3acf95243e96497d46f4b8fb81230d038abc9cf4f793cd4128721247b4ad8d7b"
+    },
+    "pulse.wav": {
+      "bytes": 576044,
+      "sha256": "dc315272150cbc4b260bdee66b83d34e5059c2ee282b289ddfe49b732aac6f5a"
+    },
+    "sync-picture-decode.log": {
+      "bytes": 1315,
+      "sha256": "45cb599a0c9ebe274b260e312700578b352688d3209797da173f00c5db55eab9"
+    },
+    "jl-render.log": {
+      "bytes": 1861,
+      "sha256": "6d8eeb24cb9154daa45557d26ec9ee3295b8e9026f7da85b64952e7c1f2acf92"
+    },
+    "mixed-rate-8s.mp4": {
+      "bytes": 6849,
+      "sha256": "31c55b69d4320ad7b8a847a1b9951c7a9f343ce0039b64bf3da52060ee946418"
+    },
+    "A-L.wav": {
+      "bytes": 576044,
+      "sha256": "e86b5049830ff7a48f156aaafef4d38f1d900e9ad034e4bdc2fba5d02c601012"
+    }
+  },
+  "measurements": {
+    "schematic_frames": 720,
+    "schematic_audio_stream": "absent",
+    "mixed_rate_output_frames": 192,
+    "mixed_rate_output_fps": 24,
+    "mixed_rate_join_frame": 96,
+    "sync_flash_frame": 96,
+    "sync_pulse_sample_48000Hz": 192000,
+    "sync_offset_frames": 0,
+    "J_start_record_frame": 84,
+    "L_end_record_frame": 108,
+    "JL_decoded_nonzero_sample_ranges_48000Hz": [
+      [
+        168000,
+        264000
+      ],
+      [
+        0,
+        216000
+      ]
+    ],
+    "JL_evidence": "two separate PCM streams; measured boundaries around frame-96 picture change; no dialogue/mix evaluation",
+    "otio_core_roundtrip": "6 clips, source ranges, parent starts, asset version metadata; 720 frames at 24"
+  },
+  "not_assessed": [
+    "full perceptual playback/listening",
+    "lip sync or J/L dramatic quality",
+    "upstream character/prop continuity",
+    "calibrated color",
+    "captions/player",
+    "actual NLE/CMX EDL/FCPXML import",
+    "audience response",
+    "real generated footage"
+  ]
+}

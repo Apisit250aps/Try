@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editor"
+  short_description: "Shape story, performance, rhythm and versioned film edits"
+  default_prompt: "Use $editor to shape this film's edit, preserve its protected beats and continuity, and deliver a versioned cut or clearly labeled paper edit with evidence and handoff notes."

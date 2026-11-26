@@ -1,0 +1,65 @@
+Screenwriter static validation — 2026-11-25, Asia/Bangkok
+
+These checks do not evaluate drama, timing, audience response or remote-URL uptime.
+
+Whole repository snapshot (includes unrelated concurrent work)
+Exit code: 1
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
+Repository: 388 local links/anchors checked
+Isolated artist: 128 local links/anchors checked
+Isolated cinematographer: 43 local links/anchors checked
+Isolated screenwriter: 54 local links/anchors checked
+Isolated storyteller: 68 local links/anchors checked
+missing target: skills/cinematographer/SKILL.md -> examples/worked-sequences.md
+missing target: skills/cinematographer/SKILL.md -> research/audit.md
+missing target: skills/cinematographer/SKILL.md -> tests/scenarios.md
+missing target: skills/cinematographer/SKILL.md -> tests/evaluation.md
+missing target: skills/cinematographer/references/blocking-continuity.md -> ../examples/worked-sequences.md
+missing target: skills/cinematographer/references/production-contract.md -> ../examples/silent-30s.json
+missing target: skills/cinematographer/references/review-rubric.md -> ../tests/scenarios.md
+missing target: skills/cinematographer/references/review-rubric.md -> ../tests/evaluation.md
+missing target: skills/cinematographer/references/visual-strategy.md -> ../examples/worked-sequences.md
+missing target: skills/cinematographer/research/sources.md -> audit.md
+missing target: SKILL.md -> examples/worked-sequences.md
+missing target: SKILL.md -> research/audit.md
+missing target: SKILL.md -> tests/scenarios.md
+missing target: SKILL.md -> tests/evaluation.md
+missing target: references/blocking-continuity.md -> ../examples/worked-sequences.md
+missing target: references/production-contract.md -> ../examples/silent-30s.json
+missing target: references/review-rubric.md -> ../tests/scenarios.md
+missing target: references/review-rubric.md -> ../tests/evaluation.md
+missing target: references/visual-strategy.md -> ../examples/worked-sequences.md
+missing target: research/sources.md -> audit.md
+20 error(s); offline structure only, no visual or HTTP verification
+
+Isolated Screenwriter package
+Exit code: 0
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
+Repository: 54 local links/anchors checked
+Isolated screenwriter: 54 local links/anchors checked
+0 error(s); offline structure only, no visual or HTTP verification
+
+Skill Creator frontmatter
+Exit code: 0
+Skill is valid!
+
+Diff and source-ID coverage
+Exit code: 0
+Coverage: 19 registered source IDs, all cited; 14 principles; all 6 guides route to traceability; no unresolved explicit P IDs
+All Screenwriter Markdown/YAML files nonempty UTF-8
+ID coverage is syntactic; source support was reviewed manually, not proven by this check
+
+Final Screenwriter-only rerun after adding this log's link
+Exit code: 0
+Both checker self-tests: OK
+Temporary root: 55 local links/anchors
+Isolated Screenwriter copy: 55 local links/anchors
+0 errors; offline structure only

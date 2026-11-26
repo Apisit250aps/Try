@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screenwriter"
+  short_description: "Write playable scenes, dialogue and script revisions"
+  default_prompt: "Use $screenwriter to adapt this story brief into a screenplay with scene beats, timing estimates and a continuity handoff."

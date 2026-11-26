@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-26",
+  "scope": "offline packaging and metadata only",
+  "results": [
+    {
+      "label": "scoped links and checker self-tests",
+      "argv": [
+        "python3",
+        "scripts/validate_repository.py",
+        "--root",
+        "skills/editor",
+        "--self-test"
+      ],
+      "cwd": "/Users/wayuyii/Workspaces/MiniProjects/wayu-arts",
+      "exit_code": 0,
+      "stdout": "Repository: 65 local links/anchors checked\n0 error(s); offline structure only, no visual or HTTP verification\n",
+      "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "label": "whole-repository links and skill isolation",
+      "argv": [
+        "python3",
+        "scripts/validate_repository.py",
+        "--self-test"
+      ],
+      "cwd": "/Users/wayuyii/Workspaces/MiniProjects/wayu-arts",
+      "exit_code": 0,
+      "stdout": "Repository: 738 local links/anchors checked\nIsolated artist: 128 local links/anchors checked\nIsolated cinematographer: 58 local links/anchors checked\nIsolated critic: 69 local links/anchors checked\nIsolated director: 66 local links/anchors checked\nIsolated editor: 65 local links/anchors checked\nIsolated screenwriter: 55 local links/anchors checked\nIsolated sound-designer: 66 local links/anchors checked\nIsolated storyteller: 68 local links/anchors checked\nIsolated strategist: 68 local links/anchors checked\n0 error(s); offline structure only, no visual or HTTP verification\n",
+      "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "label": "timeline and exact-source tests",
+      "argv": [
+        "python3",
+        "skills/editor/tests/test_timeline.py",
+        "--source",
+        "skills/cinematographer/examples/silent-30s.json"
+      ],
+      "cwd": "/Users/wayuyii/Workspaces/MiniProjects/wayu-arts",
+      "exit_code": 0,
+      "stdout": "Exact-source mapping checked: bf956f2a0bb3ad2d0a8de2ec18542b20e7d10fed483d90db7a65a370bb8b54a8\n",
+      "stderr": "test_audio_sample_domain_and_sync (__main__.TimelineTests.test_audio_sample_domain_and_sync) ... ok\ntest_claim_records_require_scoped_evidence (__main__.TimelineTests.test_claim_records_require_scoped_evidence) ... ok\ntest_dissolve_handles_and_duration (__main__.TimelineTests.test_dissolve_handles_and_duration) ... ok\ntest_estimated_paper_edit (__main__.TimelineTests.test_estimated_paper_edit) ... ok\ntest_explicit_gap_not_invented_media (__main__.TimelineTests.test_explicit_gap_not_invented_media) ... ok\ntest_invalid_variants (__main__.TimelineTests.test_invalid_variants) ... ok\ntest_mixed_rate_and_reinterpretation (__main__.TimelineTests.test_mixed_rate_and_reinterpretation) ... ok\ntest_protected_disclosure_order (__main__.TimelineTests.test_protected_disclosure_order) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.004s\n\nOK\n"
+    },
+    {
+      "label": "Skill Creator quick validation",
+      "argv": [
+        "/tmp/the-stories-editor-validation/bin/python",
+        "/Users/wayuyii/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "skills/editor"
+      ],
+      "cwd": "/Users/wayuyii/Workspaces/MiniProjects/wayu-arts",
+      "exit_code": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "label": "independent copy without siblings: timeline tests",
+      "argv": [
+        "python3",
+        "tests/test_timeline.py"
+      ],
+      "cwd": "/var/folders/8h/9zgjhn3528b2rphsdjw6_mcw0000gn/T/editor-isolated-ib8bhygf/editor",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_audio_sample_domain_and_sync (__main__.TimelineTests.test_audio_sample_domain_and_sync) ... ok\ntest_claim_records_require_scoped_evidence (__main__.TimelineTests.test_claim_records_require_scoped_evidence) ... ok\ntest_dissolve_handles_and_duration (__main__.TimelineTests.test_dissolve_handles_and_duration) ... ok\ntest_estimated_paper_edit (__main__.TimelineTests.test_estimated_paper_edit) ... ok\ntest_explicit_gap_not_invented_media (__main__.TimelineTests.test_explicit_gap_not_invented_media) ... ok\ntest_invalid_variants (__main__.TimelineTests.test_invalid_variants) ... ok\ntest_mixed_rate_and_reinterpretation (__main__.TimelineTests.test_mixed_rate_and_reinterpretation) ... ok\ntest_protected_disclosure_order (__main__.TimelineTests.test_protected_disclosure_order) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.006s\n\nOK\n"
+    },
+    {
+      "label": "independent copy without siblings: links",
+      "argv": [
+        "python3",
+        "/Users/wayuyii/Workspaces/MiniProjects/wayu-arts/scripts/validate_repository.py",
+        "--root",
+        "/var/folders/8h/9zgjhn3528b2rphsdjw6_mcw0000gn/T/editor-isolated-ib8bhygf/editor"
+      ],
+      "cwd": "/var/folders/8h/9zgjhn3528b2rphsdjw6_mcw0000gn/T/editor-isolated-ib8bhygf/editor",
+      "exit_code": 0,
+      "stdout": "Repository: 65 local links/anchors checked\n0 error(s); offline structure only, no visual or HTTP verification\n",
+      "stderr": ""
+    }
+  ]
+}

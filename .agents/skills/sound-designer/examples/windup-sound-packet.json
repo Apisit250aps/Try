@@ -1,0 +1,300 @@
+{
+  "contract": "sound-packet/0.1",
+  "project_id": "EXERCISE-WINDUP",
+  "packet_id": "SD-WINDUP-01",
+  "version": "1",
+  "status": "draft",
+  "upstream": {
+    "role": "Cinematographer",
+    "contract": "cinematographer-shot-package/0.1",
+    "version": "1",
+    "source_locator_at_authoring": "skills/cinematographer/examples/silent-30s.json",
+    "source_sha256": "bf956f2a0bb3ad2d0a8de2ec18542b20e7d10fed483d90db7a65a370bb8b54a8",
+    "snapshot_scope": "Relevant primary shot fields and locks only; source is not a runtime dependency"
+  },
+  "locked_facts": [
+    "N has own-left cheek crescent and own-right scarf knot",
+    "bird has chipped left wing",
+    "only stated actions; no speech/text/sound carries essential information",
+    "lamp remains on"
+  ],
+  "input_snapshot": [
+    {
+      "id": "S010-SH010",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB01"
+      ],
+      "purpose": "Enter and notice fallen bird",
+      "duration_seconds": 5,
+      "planned_frame_interval": [
+        0,
+        120
+      ]
+    },
+    {
+      "id": "S010-SH020",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB02"
+      ],
+      "purpose": "Lift bird onto table",
+      "duration_seconds": 4,
+      "planned_frame_interval": [
+        120,
+        216
+      ]
+    },
+    {
+      "id": "S010-SH030",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB03"
+      ],
+      "purpose": "Notice key and reach",
+      "duration_seconds": 5,
+      "planned_frame_interval": [
+        216,
+        336
+      ]
+    },
+    {
+      "id": "S010-SH040",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB04"
+      ],
+      "purpose": "Wind key once",
+      "duration_seconds": 6,
+      "planned_frame_interval": [
+        336,
+        480
+      ]
+    },
+    {
+      "id": "S010-SH050",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB05"
+      ],
+      "purpose": "Release and wait",
+      "duration_seconds": 4,
+      "planned_frame_interval": [
+        480,
+        576
+      ]
+    },
+    {
+      "id": "S010-SH060",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB06"
+      ],
+      "purpose": "Show movement and response",
+      "duration_seconds": 6,
+      "planned_frame_interval": [
+        576,
+        720
+      ]
+    }
+  ],
+  "timeline": {
+    "cut_id": null,
+    "cut_version": null,
+    "fps": {
+      "numerator": 24,
+      "denominator": 1,
+      "status": "proposed upstream playback rate"
+    },
+    "start_timecode": null,
+    "timecode_convention": null,
+    "origin": "local planned frame zero; not established cut TC",
+    "interval_convention": "half-open",
+    "duration_frames": 720,
+    "duration_seconds": 30,
+    "timing_status": "estimated primary allocation",
+    "sample_rate": null,
+    "channel_layout": null
+  },
+  "cues": [
+    {
+      "id": "SD-C010",
+      "version": "1",
+      "scene_ids": [
+        "S010"
+      ],
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB02"
+      ],
+      "shot_ids": [
+        "S010-SH020"
+      ],
+      "category": "Foley",
+      "intent": "Optional supported toy contact; material unresolved",
+      "diegesis": "diegetic",
+      "listener": "workroom observer; exact acoustic perspective provisional",
+      "planned_frame_window": [
+        120,
+        216
+      ],
+      "timing_status": "estimated shot allocation, not measured sync",
+      "anchor": {
+        "id": "SD-C010-AN01",
+        "cut_id": null,
+        "event": "toy settles onto table",
+        "sequence_frame": null,
+        "source_sample": null,
+        "status": "descriptive only; actual media absent"
+      },
+      "asset_ids": [],
+      "audio_evidence": "absent",
+      "rights_status": "pending source selection",
+      "acceptance": "Preserve silent visual readability; Editor supplies actual anchors and checks sync/continuity; no premature reveal."
+    },
+    {
+      "id": "SD-C020",
+      "version": "1",
+      "scene_ids": [
+        "S010"
+      ],
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB04"
+      ],
+      "shot_ids": [
+        "S010-SH040"
+      ],
+      "category": "SFX",
+      "intent": "Optional one winding gesture; no extra key turns",
+      "diegesis": "diegetic",
+      "listener": "workroom observer; exact acoustic perspective provisional",
+      "planned_frame_window": [
+        336,
+        480
+      ],
+      "timing_status": "estimated shot allocation, not measured sync",
+      "anchor": {
+        "id": "SD-C020-AN01",
+        "cut_id": null,
+        "event": "visible key turn begins and ends",
+        "sequence_frame": null,
+        "source_sample": null,
+        "status": "descriptive only; actual media absent"
+      },
+      "asset_ids": [],
+      "audio_evidence": "absent",
+      "rights_status": "pending source selection",
+      "acceptance": "Preserve silent visual readability; Editor supplies actual anchors and checks sync/continuity; no premature reveal."
+    },
+    {
+      "id": "SD-C030",
+      "version": "1",
+      "scene_ids": [
+        "S010"
+      ],
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB05"
+      ],
+      "shot_ids": [
+        "S010-SH050"
+      ],
+      "category": "silence",
+      "intent": "Intentional relative quiet, no premature mechanism or score resolution",
+      "diegesis": "not-applicable",
+      "listener": "workroom observer; exact acoustic perspective provisional",
+      "planned_frame_window": [
+        480,
+        576
+      ],
+      "timing_status": "estimated shot allocation, not measured sync",
+      "anchor": {
+        "id": "SD-C030-AN01",
+        "cut_id": null,
+        "event": "hands withdraw; toy remains still",
+        "sequence_frame": null,
+        "source_sample": null,
+        "status": "descriptive only; actual media absent"
+      },
+      "asset_ids": [],
+      "audio_evidence": "absent",
+      "rights_status": "not-applicable to silence",
+      "acceptance": "Preserve silent visual readability; Editor supplies actual anchors and checks sync/continuity; no premature reveal."
+    },
+    {
+      "id": "SD-C040",
+      "version": "1",
+      "scene_ids": [
+        "S010"
+      ],
+      "narrative_beat_ids": [
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB06"
+      ],
+      "shot_ids": [
+        "S010-SH060"
+      ],
+      "category": "SFX",
+      "intent": "Optional movement reinforcement; no essential audio-only clue",
+      "diegesis": "diegetic",
+      "listener": "workroom observer; exact acoustic perspective provisional",
+      "planned_frame_window": [
+        576,
+        720
+      ],
+      "timing_status": "estimated shot allocation, not measured sync",
+      "anchor": {
+        "id": "SD-C040-AN01",
+        "cut_id": null,
+        "event": "first visible advance",
+        "sequence_frame": null,
+        "source_sample": null,
+        "status": "descriptive only; actual media absent"
+      },
+      "asset_ids": [],
+      "audio_evidence": "absent",
+      "rights_status": "pending source selection",
+      "acceptance": "Preserve silent visual readability; Editor supplies actual anchors and checks sync/continuity; no premature reveal."
+    }
+  ],
+  "handoff": {
+    "receiver": "Editor / animation implementer",
+    "requested_check": "Return actual cut/version/timebase and winding-stop/first-movement anchors; preserve wait, lamp and silent comprehension; report missing fields.",
+    "dispatch": "not-performed",
+    "receipt": null,
+    "acceptance": null
+  },
+  "checks": {
+    "metadata": "Pending assertion run; see tests/evaluation.md for actual execution evidence",
+    "audio": "not-assessed",
+    "sync": "not-assessed",
+    "rights": "pending source selection"
+  }
+}

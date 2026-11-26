@@ -1,0 +1,29 @@
+Input #0, lavfi, from 'color=c=black:s=160x90:r=24:d=6':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 160x90 [SAR 1:1 DAR 16:9], 24 fps, 24 tbr, 24 tbn
+[aist#1:0/pcm_s16le @ 0x124806410] Guessed Channel Layout: mono
+Input #1, wav, from '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/B-J.wav':
+  Duration: 00:00:06.00, bitrate: 768 kb/s
+  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+[aist#2:0/pcm_s16le @ 0x12480a0d0] Guessed Channel Layout: mono
+Input #2, wav, from '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/A-L.wav':
+  Duration: 00:00:06.00, bitrate: 768 kb/s
+  Stream #2:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (wrapped_avframe (native) -> ffv1 (native))
+  Stream #1:0 -> #0:1 (pcm_s16le (native) -> pcm_s16le (native))
+  Stream #2:0 -> #0:2 (pcm_s16le (native) -> pcm_s16le (native))
+Output #0, matroska, to '/private/tmp/the-stories-editor-smoke-ffmpeg9-final/jl-overlap.mkv':
+  Metadata:
+    encoder         : Lavf63.1.100
+  Stream #0:0: Video: ffv1 (FFV1 / 0x31564646), yuv420p(tv, progressive), 160x90 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 1k tbn
+    Metadata:
+      encoder         : Lavc63.1.100 ffv1
+  Stream #0:1: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+  Stream #0:2: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, mono, s16, 768 kb/s
+    Metadata:
+      encoder         : Lavc63.1.100 pcm_s16le
+[out#0/matroska @ 0x124807370] video:30KiB audio:1125KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.283157%
+frame=  144 fps=0.0 q=-0.0 Lsize=    1158KiB time=00:00:06.00 bitrate=1581.4kbits/s speed= 864x elapsed=0:00:00.00    

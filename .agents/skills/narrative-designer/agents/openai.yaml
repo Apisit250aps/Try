@@ -1,0 +1,4 @@
+interface:
+  display_name: "Narrative Designer"
+  short_description: "Design branching narratives and consequences"
+  default_prompt: "Use $narrative-designer to design narrative routes, choices, state and endings."

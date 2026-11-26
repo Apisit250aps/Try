@@ -1,0 +1,4 @@
+interface:
+  display_name: "Critic"
+  short_description: "Review creative work with located, actionable evidence"
+  default_prompt: "Use $critic to review this artifact against its brief, separate observations from interpretations, and return prioritized issues with revision options and verification criteria."

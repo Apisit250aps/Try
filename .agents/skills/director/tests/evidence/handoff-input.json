@@ -1,0 +1,863 @@
+{
+  "contract": "cinematographer-shot-package/0.1",
+  "project_id": "EXERCISE-WINDUP",
+  "task_id": "T01",
+  "version": "1",
+  "status": "draft",
+  "supersedes": null,
+  "upstream": [
+    {
+      "role": "user-exercise",
+      "id": "T01-BRIEF",
+      "version": "1",
+      "status": "draft",
+      "locator": "worked-sequences.md#t01--silent-30-second-visual-narrative"
+    }
+  ],
+  "locked_facts": [
+    "N has own-left cheek crescent and own-right scarf knot",
+    "bird has chipped left wing",
+    "only stated actions; no speech/text/sound carries essential information",
+    "lamp remains on"
+  ],
+  "assumptions": [
+    "Synthetic original exercise, not approved project canon",
+    "Virtual paper medium; no real identity/style frames supplied",
+    "All durations are estimated screen allocations; handles excluded"
+  ],
+  "pending": [
+    "Artist reference/board artifacts",
+    "real animatic timing and silent comprehension test",
+    "actual provider capability if generation requested"
+  ],
+  "format": {
+    "width_px": 1920,
+    "height_px": 1080,
+    "fps": 24,
+    "action_safe": [
+      0.05,
+      0.05,
+      0.95,
+      0.95
+    ],
+    "safe_area_status": "provisional review region, not platform-certified"
+  },
+  "scene": {
+    "id": "S010",
+    "narrative_beat_ids": [
+      "NB01",
+      "NB02",
+      "NB03"
+    ],
+    "script_beat_ids": [
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB05",
+      "SB06"
+    ],
+    "geography": "Meters: table(0,0), door(-2,1), bird initially(-.6,-.5); north=+y; cameras y<0",
+    "intent": "Recognize fallen toy, make care observable, reveal restored movement"
+  },
+  "references": [
+    {
+      "id": "CHAR-N",
+      "version": "1",
+      "role": "identity",
+      "locator": null,
+      "status": "spec-only",
+      "note": "Synthetic exercise design; no inspected image exists."
+    },
+    {
+      "id": "PROP-BIRD",
+      "version": "1",
+      "role": "identity",
+      "locator": null,
+      "status": "spec-only",
+      "note": "Synthetic exercise design; no inspected image exists."
+    },
+    {
+      "id": "SET-WORKROOM",
+      "version": "1",
+      "role": "geometry",
+      "locator": null,
+      "status": "spec-only",
+      "note": "Synthetic exercise design; no inspected image exists."
+    },
+    {
+      "id": "LOOK-PAPER",
+      "version": "1",
+      "role": "style",
+      "locator": null,
+      "status": "spec-only",
+      "note": "Synthetic exercise design; no inspected image exists."
+    }
+  ],
+  "shots": [
+    {
+      "id": "S010-SH010",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB01"
+      ],
+      "purpose": "Enter and notice fallen bird",
+      "audience": {
+        "before": "No prior disclosure",
+        "after": "Bird is still on floor; N can help",
+        "emotion_hypothesis": "Expectancy"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "N moves from door to table side; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Wide establishing",
+        "station": {
+          "position_m": [
+            0,
+            -4,
+            1.3
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            0,
+            0,
+            0.8
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 28,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "N moves from door to table side",
+        "start_state": {
+          "N_position": "door",
+          "N_left_hand": "empty",
+          "N_right_hand": "empty",
+          "bird": "on side on floor",
+          "key": "still",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table",
+          "N_left_hand": "empty",
+          "N_right_hand": "empty",
+          "bird": "on side on floor",
+          "key": "still",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 5,
+      "continuity": {
+        "relation": "start",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "N moves from door to table side",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH010-P01",
+        "end_frame_id": "S010-SH010-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH010-P01",
+          "role": "start",
+          "description": "Wide view includes door, table and floor bird; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH010-P02",
+          "role": "end",
+          "description": "Wide view includes door, table and floor bird; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    },
+    {
+      "id": "S010-SH020",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB01"
+      ],
+      "script_beat_ids": [
+        "SB02"
+      ],
+      "purpose": "Lift bird onto table",
+      "audience": {
+        "before": "Bird is still on floor; N can help",
+        "after": "Bird now upright, supported by N",
+        "emotion_hypothesis": "Concern becomes attention"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "N left hand lifts bird from floor to table; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Medium low detail",
+        "station": {
+          "position_m": [
+            -0.4,
+            -3,
+            0.6
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            -0.5,
+            0,
+            0.5
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 28,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "N left hand lifts bird from floor to table",
+        "start_state": {
+          "N_position": "beside table",
+          "N_left_hand": "empty",
+          "N_right_hand": "empty",
+          "bird": "on side on floor",
+          "key": "still",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "empty",
+          "bird": "upright on table at mark A",
+          "key": "still",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 4,
+      "continuity": {
+        "relation": "continuous",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "N left hand lifts bird from floor to table",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH020-P01",
+        "end_frame_id": "S010-SH020-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH020-P01",
+          "role": "start",
+          "description": "Table leg retains geography; chipped left wing visible; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH020-P02",
+          "role": "end",
+          "description": "Table leg retains geography; chipped left wing visible; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    },
+    {
+      "id": "S010-SH030",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB03"
+      ],
+      "purpose": "Notice key and reach",
+      "audience": {
+        "before": "Bird now upright, supported by N",
+        "after": "Audience sees key before winding",
+        "emotion_hypothesis": "Anticipation"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "Right hand approaches key while left supports bird; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Medium close",
+        "station": {
+          "position_m": [
+            -0.2,
+            -2.8,
+            1.1
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            -0.3,
+            0,
+            1.15
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 42,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "Right hand approaches key while left supports bird",
+        "start_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "empty",
+          "bird": "upright on table at mark A",
+          "key": "still",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "at key",
+          "bird": "upright on table at mark A",
+          "key": "still",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 5,
+      "continuity": {
+        "relation": "continuous",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "Right hand approaches key while left supports bird",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH030-P01",
+        "end_frame_id": "S010-SH030-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH030-P01",
+          "role": "start",
+          "description": "Face, both hands and key remain legible; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH030-P02",
+          "role": "end",
+          "description": "Face, both hands and key remain legible; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    },
+    {
+      "id": "S010-SH040",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB04"
+      ],
+      "purpose": "Wind key once",
+      "audience": {
+        "before": "Audience sees key before winding",
+        "after": "The key mechanism has been wound",
+        "emotion_hypothesis": "Focused anticipation"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "Right hand winds once; left hand supports bird; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Close detail",
+        "station": {
+          "position_m": [
+            0.2,
+            -1.4,
+            0.95
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            0,
+            0,
+            0.9
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 50,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "Right hand winds once; left hand supports bird",
+        "start_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "at key",
+          "bird": "upright on table at mark A",
+          "key": "still",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "winding complete at key",
+          "bird": "upright on table at mark A",
+          "key": "wound and stopped",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 6,
+      "continuity": {
+        "relation": "continuous",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "Right hand winds once; left hand supports bird",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH040-P01",
+        "end_frame_id": "S010-SH040-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH040-P01",
+          "role": "start",
+          "description": "Key and hand contact readable; no invented gears; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH040-P02",
+          "role": "end",
+          "description": "Key and hand contact readable; no invented gears; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    },
+    {
+      "id": "S010-SH050",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB02"
+      ],
+      "script_beat_ids": [
+        "SB05"
+      ],
+      "purpose": "Release and wait",
+      "audience": {
+        "before": "The key mechanism has been wound",
+        "after": "Bird stands unsupported but still",
+        "emotion_hypothesis": "Brief uncertainty"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "Both hands withdraw without moving bird; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Close detail with release room",
+        "station": {
+          "position_m": [
+            0.2,
+            -1.8,
+            0.95
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            0,
+            0,
+            0.9
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 50,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "Both hands withdraw without moving bird",
+        "start_state": {
+          "N_position": "beside table",
+          "N_left_hand": "supports bird on table",
+          "N_right_hand": "winding complete at key",
+          "bird": "upright on table at mark A",
+          "key": "wound and stopped",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table",
+          "N_left_hand": "withdrawn",
+          "N_right_hand": "withdrawn",
+          "bird": "upright on table at mark A",
+          "key": "wound and stopped",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 4,
+      "continuity": {
+        "relation": "continuous",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "Both hands withdraw without moving bird",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH050-P01",
+        "end_frame_id": "S010-SH050-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH050-P01",
+          "role": "start",
+          "description": "Space around feet and withdrawing hands; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH050-P02",
+          "role": "end",
+          "description": "Space around feet and withdrawing hands; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    },
+    {
+      "id": "S010-SH060",
+      "version": "1",
+      "status": "draft",
+      "scene_id": "S010",
+      "narrative_beat_ids": [
+        "NB03"
+      ],
+      "script_beat_ids": [
+        "SB06"
+      ],
+      "purpose": "Show movement and response",
+      "audience": {
+        "before": "Bird stands unsupported but still",
+        "after": "Bird advances and N smiles",
+        "emotion_hypothesis": "Relief as a hypothesis"
+      },
+      "reference_ids": [
+        "CHAR-N",
+        "PROP-BIRD",
+        "SET-WORKROOM",
+        "LOOK-PAPER"
+      ],
+      "blocking": "Bird advances 10 cm; N smiles; N stays left of bird, cameras south of table.",
+      "camera": {
+        "scale": "Medium shared N and toy",
+        "station": {
+          "position_m": [
+            0,
+            -3,
+            1
+          ],
+          "coordinate_system": "world x east, y north, z up; proposed virtual station"
+        },
+        "aim": {
+          "target_m": [
+            -0.3,
+            0,
+            1.05
+          ],
+          "angle": "level or slight tilt toward target; fixed throughout shot"
+        },
+        "gate_mm": [
+          24,
+          13.5
+        ],
+        "lens_mm": 35,
+        "focus": "include essential contact/face planes; f/4-equivalent intention, not measured",
+        "motion": "locked; no translation, rotation or zoom"
+      },
+      "light": {
+        "source": "desk lamp at world (-0.8,0.4), augmented by compatible offscreen bounce",
+        "quality": "broad directional bounce; restrained fill",
+        "continuity": "lamp remains on; LOOK-PAPER v1",
+        "color_wb": "warm lamp intent; no calibrated capture or WB result"
+      },
+      "action": {
+        "description": "Bird advances 10 cm; N smiles",
+        "start_state": {
+          "N_position": "beside table",
+          "N_left_hand": "withdrawn",
+          "N_right_hand": "withdrawn",
+          "bird": "upright on table at mark A",
+          "key": "wound and stopped",
+          "lamp": "on"
+        },
+        "end_state": {
+          "N_position": "beside table smiling",
+          "N_left_hand": "withdrawn",
+          "N_right_hand": "withdrawn",
+          "bird": "upright on table 10 cm ahead of mark A",
+          "key": "wound and stopped",
+          "lamp": "on"
+        }
+      },
+      "duration_seconds": 6,
+      "continuity": {
+        "relation": "continuous",
+        "axis": "south-side; N screen-left of bird",
+        "eyeline": "N looks at bird/key when required",
+        "exception": ""
+      },
+      "transition": "straight cut proposal; preserve action phase; Editor selects actual cut",
+      "coverage": "essential; optional uninterrupted master protects action, excluded from primary duration",
+      "generation": {
+        "subject_motion": "Bird advances 10 cm; N smiles",
+        "camera_motion": "locked",
+        "constraints": [
+          "one primary action unit",
+          "preserve own-left crescent and chipped left wing",
+          "no newly invented bird/gear parts"
+        ],
+        "start_frame_id": "S010-SH060-P01",
+        "end_frame_id": "S010-SH060-P02",
+        "capability_status": "unknown; provider not selected",
+        "attempt_budget": "at most two corrective attempts per defect before simpler fallback"
+      },
+      "boards": [
+        {
+          "id": "S010-SH060-P01",
+          "role": "start",
+          "description": "N face and bird movement in the same readable frame; start state as recorded",
+          "artifact": null
+        },
+        {
+          "id": "S010-SH060-P02",
+          "role": "end",
+          "description": "N face and bird movement in the same readable frame; end state as recorded",
+          "artifact": null
+        }
+      ],
+      "validation": {
+        "status": "spec-only",
+        "checks": [
+          "compare own-left/own-right identity",
+          "check contact and adjacent action states",
+          "inspect essential read at delivery size",
+          "time actual performance/animatic"
+        ],
+        "evidence": null
+      }
+    }
+  ],
+  "proposed_sequence": [
+    "S010-SH010",
+    "S010-SH020",
+    "S010-SH030",
+    "S010-SH040",
+    "S010-SH050",
+    "S010-SH060"
+  ],
+  "target_duration_seconds": 30,
+  "checks": [
+    {
+      "type": "planned",
+      "description": "Static packet check and arithmetic; actual run evidence is in tests/evaluation.md, not implied by this fixture"
+    }
+  ],
+  "handoff": [
+    {
+      "receiver": "Artist",
+      "request": "Render panel specs using approved references when supplied",
+      "status": "pending"
+    },
+    {
+      "receiver": "Editor",
+      "request": "Test key recognition/release intervals and 30-second allocation in an animatic",
+      "status": "pending"
+    },
+    {
+      "receiver": "Sound Designer",
+      "request": "Optional synchronized winding/release cues; silent test must remain intelligible",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Director"
+  short_description: "Shape screen intent, performance and creative decisions"
+  default_prompt: "Use $director to develop a treatment and concrete creative direction from my brief, preserving approved canon and recording decisions and handoffs."

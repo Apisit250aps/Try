@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "skills": {
+    "artist": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/artist/SKILL.md",
+      "computedHash": "096a40a3c3d14c957364598d1e3064e58abbaef01dfda8c2ef0058519a61124d"
+    },
+    "cinematographer": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/cinematographer/SKILL.md",
+      "computedHash": "6ac658b8d34deef87e17a8b81d8bc040c5f04374dce44086819bbdf4bbd8df99"
+    },
+    "critic": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/critic/SKILL.md",
+      "computedHash": "1d0de3f8212b37d67f962f1782894d17dbf69dee07abfb89120158d4993dc88b"
+    },
+    "director": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/director/SKILL.md",
+      "computedHash": "7a0d954ddb1413f80582179d874fa2d135e1601db5d6b9fe09b840d72db9d806"
+    },
+    "editor": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/editor/SKILL.md",
+      "computedHash": "5dbe31b88c67a4e880026113568998924a0da6bf5d20934a59af9f5b5a317682"
+    },
+    "narrative-designer": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/narrative-designer/SKILL.md",
+      "computedHash": "e4edf53036a46852cfcf0861d759635bbf2d69cdf55665e01caebe3220f9cffa"
+    },
+    "screenwriter": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/screenwriter/SKILL.md",
+      "computedHash": "18b0ae366cde97423fdaf82884ced1ebc6869bef1f48d5bdbf9b3b2294e371af"
+    },
+    "sound-designer": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/sound-designer/SKILL.md",
+      "computedHash": "0ad963a7c40157cfa44bd9d1d2404e2e67c7061432eae6c98033178a2185d615"
+    },
+    "storyteller": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/storyteller/SKILL.md",
+      "computedHash": "70d825de153b83e206ccbf3901f49969c7ed63903bdf0ca77b09ccc10f40bb49"
+    },
+    "strategist": {
+      "source": "Apisit250aps/wayu-arts",
+      "commit": "293f40fe494fd051f6244b8f8860fe9cc7880553",
+      "sourceType": "github",
+      "skillPath": "skills/strategist/SKILL.md",
+      "computedHash": "af92c5dc470b5a6e4d5c43025817d98b60a738ab573717bed98551b5f445a4ca"
+    }
+  }
+}

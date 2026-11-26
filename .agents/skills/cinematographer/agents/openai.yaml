@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematographer"
+  short_description: "Design camera, lighting, coverage and shot continuity"
+  default_prompt: "Use $cinematographer to turn this scene into a feasible camera, lighting and coverage plan while preserving its intent and continuity."

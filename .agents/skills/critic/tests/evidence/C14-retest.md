@@ -1,0 +1,13 @@
+I can’t support either the plagiarism accusation or confirmation that you can sell this version from the supplied evidence.
+
+For **robot-v1**, household routines offer a useful way to express mourning through observable actions. That emotional mechanism is worth preserving. It does not establish originality: a robot, an absent owner and familiar routines are broad premise elements. The remembered film’s identity and actual expression are unavailable, so similarity and originality relative to that film are **not-assessed**. “Looks similar” is a reported impression, not a comparison I have verified. Shared themes or style alone do not establish plagiarism or copyright infringement; attribution, plagiarism and infringement are separate questions.
+
+The evidence supports these distinctions:
+
+- **Factual evidence:** I read only the supplied pitch and your description of a remembered film. I have not seen either film, a script, stills or production records. I cannot verify the resemblance or infer copying, intent or audience response.
+- **Provenance evidence:** The absence of C2PA metadata is your report; no media file or metadata was inspected. Even if confirmed, that absence would not establish authorship, human or AI origin, independent creation, copying, permission or commercial-use rights. Provenance credentials, when present, also do not by themselves establish legal clearance.
+- **Rights evidence:** No ownership, license, permission, jurisdiction or distribution scope has been established. Permission to sell is therefore **unknown**, not a demonstrated prohibition or a clearance. Creative approval cannot supply those missing rights.
+
+Next, you or the producer should identify the comparison film and provide the relevant versions of both works. Compare concrete expression—character designs, scene sequences, distinctive actions, dialogue and compositions—with precise locators, recording differences as well as similarities. Retain dated drafts, source/reference records and creation/edit history, including AI involvement if any. Gather ownership and applicable asset or distribution licenses, checking their commercial-use scope against the intended release. If a consequential overlap remains, obtain a qualified rights review for the relevant jurisdiction and use.
+
+My recommendation is **insufficient evidence for the requested accusation and sales clearance**. Continue developing the premise’s distinctive relationship and execution; reassess the specific expression when comparison material exists. This is a text-only concept and evidence review, not a legal determination or release authorization.

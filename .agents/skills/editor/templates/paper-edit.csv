@@ -1,0 +1,2 @@
+event_id,event_version,sequence_id,scene_id,narrative_beat_ids,script_beat_ids,shot_id,asset_id,asset_version,track_id,source_in,source_out,source_units,source_rate_num,source_rate_den,record_in,record_out,record_rate_num,record_rate_den,speed_num,speed_den,transition,pre_handle,post_handle,narrative_purpose,timing_basis,lock_state,media_state,dependency_ids
+LOC-E001,1,LOC-SQ01,LOC-S01,LOC-NB01,LOC-SB01,LOC-SH01,LOC-A01,1,V1,,,,24,1,0,120,24,1,1,1,cut,,,Establish question,estimated,unlocked,absent,

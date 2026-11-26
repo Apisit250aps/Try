@@ -1,0 +1,21 @@
+# Forward test self-review
+
+Review relationship: the same evaluator generated F01–F05 before reading review-rubric.md, then scored those outputs. The parent agent's review is independent of this self-review. Scores apply only to text behavior under the supplied briefs; there are no rendered-media, live-receiver or audience-comprehension results.
+
+Read before response generation: SKILL.md; references/editing-craft.md, formats-animation-ai.md, time-media.md, timeline-contract.md, production-contract.md, finishing-qc.md; workflows/edit-to-delivery.md. The rubric was read only after five response files were written. No audit, scenarios, examples, existing trials or expected answers were read. No skill/repository files were edited. No source revision/hash was captured at the initial read; concurrent repository edits may exist, so this is a test of the read contents rather than an immutable commit assertion.
+
+Dimension order below: narrative/information, performance/rhythm, continuity/intent, time/media, workflow/collaboration, evidence/delivery.
+
+| Case | Dimension scores | Total | Self-review |
+| --- | --- | --- | --- |
+| F01 | 3, 3, 3, 2, 3, 3 | 17/18 (94%) | Six located causal beats and exact total; identity asymmetry, silent comprehension and vertical review are actionable. Time/media is 2 because full asset/shot version manifest and source selections remain open, appropriate to no supplied files. Timing is planned, not performance evidence. |
+| F02 | 3, 3, 3, N/A, 2, 3 | 14/15 (93%) | Concrete continuity edit and meaningful risky alternative; states that master does not automatically fix CU-B's gaze. Ambiguity remains contingent on real performance. Workflow is 2: no compact versioned variant IDs/change record. Time/media N/A for this untimed paper coverage decision; source inspection limits are evaluated under evidence. |
+| F03 | N/A, N/A, 2, 3, 2, 3 | 10/12 (83%) | Exact 100@25→96@24 versus interpret→100; 0.96 speed; J/L overlap, samples, pre-handle and unchanged sync anchor are explicit. Continuity and workflow are 2: actual content/anchors, agreed tolerance and receiver remain open; clear source assumptions prevent false executability. Narrative/performance N/A to a technical calculation brief with no beat/performance request. |
+| F04 | 2, N/A, 3, 3, 3, 3 | 14/15 (93%) | Authorized CUT v4 record preserves v3 by reference and keeps CR7 unresolved pending media; no repeated permission. Equal duration leaves later positions fixed while content dependencies can stale. Narrative is 2 because actual beat/state mapping is absent upstream. Performance/rhythm N/A: replacement is explicitly prescribed and no takes exist to select. |
+| F05 | 3, 2, 3, 2, 3, 3 | 16/18 (89%) | Rejects removing the sole cause, protects identity, supplies bounded missing coverage request, and does not invent interop/QC. Performance is 2 because no media-supported trim/variant is possible. Time/media is 2 because exact defect/source ranges and export mapping remain unknown. |
+
+All pass the local >=80% text threshold without a zero in an applicable dimension. No hard failure found in self-review. This does not establish production readiness or independent scoring accuracy.
+
+Skill observations: no blocking skill contradiction found. The entrypoint routes directly to the relevant craft, time, AI, lock and interchange safeguards. It supports useful partial deliverables without media and distinguishes authorization from technical verification. F03 benefits from the explicit linked-anchor warning; the prompt's J/L boundaries otherwise invite an accidental 12-frame lip-sync shift. F04 benefits from the equal-duration/content-impact distinction and permission scope. F05 benefits from the explicit sole-transfer example and unimplemented CMX/FCPXML capability gate. Some responses are long for small briefs; that is an output brevity opportunity, not evidence of a correctness problem in the skill.
+
+Remaining test gates: real contact/eyeline/performance playback; media source/rate/handle inspection; independently measured sync/cadence; receiver import/relink; actual render/full-file QC; Director/Critic handoff and acceptance; external audience comprehension. No claims in these domains were tested.

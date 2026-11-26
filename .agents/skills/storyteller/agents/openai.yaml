@@ -1,0 +1,4 @@
+interface:
+  display_name: "Storyteller"
+  short_description: "Author stories, outlines, and narrative continuity"
+  default_prompt: "Use $storyteller to develop my idea into a distinctive story with coherent characters, narrative beats, and an earned ending."

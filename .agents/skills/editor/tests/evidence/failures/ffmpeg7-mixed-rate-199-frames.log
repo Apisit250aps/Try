@@ -1,0 +1,43 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/private/tmp/the-stories-editor-media-py39/mixed-rate-8s.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:07.96, start: 0.000000, bitrate: 7 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 160x90 [SAR 1:1 DAR 16:9], 3 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx264
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> rawvideo (native))
+[swscaler @ 0x1202a0000] [swscaler @ 0x130200000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130210000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130220000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130230000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130240000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130250000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130260000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130270000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130280000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x130290000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302a0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302b0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302c0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302d0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302e0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0x1202a0000] [swscaler @ 0x1302f0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+Output #0, rawvideo, to 'pipe:1':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: rawvideo (RGB[24] / 0x18424752), rgb24(pc, gbr/unknown/unknown, progressive), 160x90 [SAR 1:1 DAR 16:9], q=2-31, 8640 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 rawvideo
+[out#0/rawvideo @ 0x13f616ae0] video:8395KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=  199 fps=0.0 q=-0.0 Lsize=    8395KiB time=00:00:07.96 bitrate=8640.0kbits/s speed= 630x    
